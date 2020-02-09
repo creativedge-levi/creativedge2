@@ -23,11 +23,24 @@ http://lifeinsys.com
 /* ======= Custom Changes (David) ========== */
 #title-logo {
     margin-bottom: 1rem;
+    max-width: 100%;
 }
 
 #mission {
     padding-top: 4rem;
 }
+
+#services-list {
+    padding-right: 3rem;
+}
+
+#mission-block {
+    padding-right: 2.75rem;
+}
+
+/* #mission-column-left {
+    margin-right: 1rem;
+} */
 
 /* ======= Base style ========== */
 body {

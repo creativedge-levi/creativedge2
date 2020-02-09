@@ -26,7 +26,7 @@ http://lifeinsys.com
     max-width: 100%;
 }
 
-/* #mission {
+#mission {
     padding-top: 4rem;
 }
 
@@ -38,9 +38,9 @@ http://lifeinsys.com
     padding-right: 2.75rem;
 } */
 
-#mission-column-left {
+/* #mission-column-left {
     margin-right: px;
-}
+} */
 
 /* ======= Base style ========== */
 body {

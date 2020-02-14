@@ -28,13 +28,14 @@ http://lifeinsys.com
 
 #mission {
     padding-top: 4rem;
+    padding-left: 2rem;
 }
 
 #services-list {
     padding-right: 3rem;
 }
 
-#mission-block {
+/* #mission-block {
     padding-right: 2.75rem;
 } */
 

@@ -40,7 +40,8 @@ $(document).on('ready', function () {
     $.fn.initForm = function (options) {
         var settings = $.extend({
             type: 'post',
-            serverUrl: '#',
+            // serverUrl: '#',
+            serverUrl: 'localhost',
             successClean: this.find('.form-success-clean'),
             successGone: this.find('.form-success-gone'),
             successInvisible: this.find('.form-success-invisible'),

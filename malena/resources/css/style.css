@@ -21,10 +21,16 @@ http://lifeinsys.com
 -----------------------------------------------------------------*/
 
 /* ======= Custom Changes (David) ========== */
-#title-logo {
-    margin-bottom: 1rem;
-    max-width: 100%;
+
+#light-logo {
+    height: 7.5rem;
 }
+
+#title-logo {
+    /* margin-bottom: 1rem; */
+    max-width: 100%;   
+}
+
 
 #mission {
     padding-top: 4rem;
@@ -44,6 +50,7 @@ http://lifeinsys.com
 } */
 
 /* ======= Base style ========== */
+
 body {
     font-family: "Open Sans", "Opensans", "Roboto", "Helvetica", -apple-system, system-ui, BlinkMacSystemFont, sans-serif;
     font-size: 1rem;

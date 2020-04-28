@@ -21,6 +21,15 @@ http://lifeinsys.com
 -----------------------------------------------------------------*/
 
 /* ======= Custom Changes (David) ========== */
+/* .section {
+    background: rgb(88,88,96);
+    background: linear-gradient(142deg, rgba(88,88,96,1) 0%, rgba(191,191,200,1) 35%, rgba(34,24,24,1) 100%);
+} */
+
+.section {
+    background: rgb(0,0,0);
+    background: linear-gradient(142deg, rgba(0,0,0,1) 0%, rgba(203,203,203,1) 28%, rgba(28,28,28,1) 100%);
+}
 
 #light-logo {
     height: 7.5rem;
@@ -39,6 +48,14 @@ http://lifeinsys.com
 
 #services-list {
     padding-right: 1rem;
+}
+
+#mailto {
+    color: white;
+}
+
+a {
+    color: white;
 }
 
 /* #mission-block {

@@ -1,18 +1,20 @@
 <?php
 
-    $myAwardSpaceEmail = "your-AwardSpace-email-goes-here";
-    $myPersonalEmail = "david.barnes115@gmail.com";
+    $mySiteEmail = "levi.stecker@creativedge-us.com";
+    $to = "creativedge.levi@gmail.com";
+    $subject = "New Message from Website";
+
     
-    if(isset($_POST['submit'])) {
+    if(isset($_POST['submit_message'])) {
         // $subject = $_POST['subject'];
         $name = $_POST['name'];
         $email = $_POST['email'];
         $message = $_POST['message'];
-        $headers = "From: Contact Form <" . $myAwardSpaceEmail . ">" . "\r\n";
+        $headers = "From: Contact Form <" . $mySiteEmail . ">" . "\r\n";
         $headers .= "Reply-To: " . $name . " <" . $email .">" . "\r\n";
         
         echo 'Your message was sent successfully!';
-        mail($myPersonalEmail, $message, $headers);
+        mail($to, $subject, $message, $headers);
     } else {
         echo 'An error has occurred!';
     }

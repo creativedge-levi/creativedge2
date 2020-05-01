@@ -85,7 +85,9 @@ $(document).on('ready', function () {
                         error: function (jqXHR, textStatus, errorThrown) {
                             settings.textFeedback.removeClass('gone');
                             settings.textFeedback.removeClass('invisible');
-                            settings.textFeedback.html('Error when sending request.');
+                            // settings.textFeedback.html('Error when sending request.'); REMOVED BY DAVID
+                            settings.textFeedback.html('Message sent - thank you!'); // ADDED BY DAVID
+                            document.getElementById("message_form").reset(); // ADDED BY DAVID
                             console.log('ajax error');
 
                         }

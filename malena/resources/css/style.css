@@ -31,8 +31,23 @@ http://lifeinsys.com
     background: linear-gradient(142deg, rgba(0,0,0,1) 0%, rgba(203,203,203,1) 28%, rgba(28,28,28,1) 100%);
 }
 
+#item-page-style {
+    background: rgb(0,0,0);
+    background: linear-gradient(142deg, rgba(0,0,0,1) 0%, rgba(203,203,203,1) 28%, rgba(28,28,28,1) 100%);
+}
+
+.section-cover-tier.mask-black {
+    background: rgb(156, 155, 155);
+    /* background: linear-gradient(142deg, rgba(0,0,0,1) 0%, rgba(203,203,203,1) 28%, rgba(28,28,28,1) 100%); */
+}
+
 #light-logo {
     height: 7.5rem;
+}
+
+#light-logo-itempage {
+    height: 7.5rem;
+    padding-bottom: 30px;
 }
 
 #title-logo {

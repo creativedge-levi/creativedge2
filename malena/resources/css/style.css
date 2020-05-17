@@ -57,12 +57,16 @@ http://lifeinsys.com
 
 
 #mission {
-    padding-top: 4rem;
+    /* padding-top: 5.5rem; */
     /* padding-left: 2rem; */
 }
 
 #services-list {
     /* padding-right: 1rem; */
+    text-align: center;
+}
+
+#wholesale-services-list {
     text-align: center;
 }
 

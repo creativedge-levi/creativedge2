@@ -62,7 +62,8 @@ http://lifeinsys.com
 }
 
 #services-list {
-    padding-right: 1rem;
+    /* padding-right: 1rem; */
+    text-align: center;
 }
 
 .img {

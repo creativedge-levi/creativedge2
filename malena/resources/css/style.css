@@ -82,7 +82,7 @@ http://lifeinsys.com
   }
   
 .img:hover {
-    transform: scale(2.0); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transform: scale(1.75); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
     z-index: 100;
   }
 

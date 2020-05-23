@@ -85,6 +85,22 @@ http://lifeinsys.com
     z-index: 100;
   }
 
+.project-img {
+    max-width: 50%;
+    max-height: 50%;
+    /* border: 5px solid rgb(48, 48, 49); */
+    border: 10px solid rgb(155, 151, 151);
+    border-radius: 30px;
+    padding: 1px;
+    box-shadow: 5px 10px #666666;
+}
+
+}
+
+#project-blurb {
+    margin-bottom: 2.75rem;
+}
+
 #mailto {
     color: white;
 }

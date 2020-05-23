@@ -50,6 +50,10 @@ http://lifeinsys.com
     padding-bottom: 30px;
 }
 
+#main-wrapper {
+    padding-bottom: 50px;
+}
+
 #title-logo {
     /* margin-bottom: 1rem; */
     max-width: 100%;   
@@ -87,8 +91,8 @@ http://lifeinsys.com
   }
 
 .project-img {
-    max-width: 50%;
-    max-height: 50%;
+    max-width: 60%;
+    max-height: 60%;
     /* border: 5px solid rgb(48, 48, 49); */
     border: 10px solid rgb(155, 151, 151);
     border-radius: 30px;
@@ -100,7 +104,7 @@ http://lifeinsys.com
 }
 
 .project-img:hover {
-    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transform: scale(1.4); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
     z-index: 100;
   }
 
